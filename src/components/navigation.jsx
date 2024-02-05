@@ -1,13 +1,11 @@
-// Navigation.jsx
-
 import React, { useState } from 'react';
 
 const Navigation = ({ onPageChange }) => {
-  const [activePage, setActivePage] = useState(''); // State to track active page
+  const [activePage, setActivePage] = useState(''); 
 
   const handleNavigationClick = (page) => {
     onPageChange(page);
-    setActivePage(page); // Update active page state
+    setActivePage(page); 
   };
 
   return (

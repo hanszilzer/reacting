@@ -3,22 +3,22 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0; /* Light gray background */
-  color: #333; /* Dark text color */
+  background-color: #f0f0f0;
+  color: #333; 
 }
 
 /* Header styles */
 header {
-  background-color: #007bff; /* Vibrant blue header */
+  background-color: #007bff; 
   color: #fff;
   padding: 20px;
   text-align: center;
-  animation: fadeInDown 0.5s ease-in-out; /* Fade in animation */
+  animation: fadeInDown 0.5s ease-in-out; 
 }
 
 /* Navigation styles */
 nav {
-  background-color: #0056b3; /* Dark blue navigation */
+  background-color: #0056b3; 
   padding: 10px;
 }
 nav ul li a.active {
@@ -37,7 +37,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 20px;
-  transition: transform 0.3s ease-in-out; /* Transform animation */
+  transition: transform 0.3s ease-in-out; 
 }
 
 nav ul li a {
@@ -48,14 +48,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #0069d9; /* Lighter blue on hover */
+  background-color: #0069d9; 
   border-radius: 5px;
 }
 
 /* Main content styles */
 main {
   padding: 20px;
-  animation: fadeInUp 0.5s ease-in-out; /* Fade in animation */
+  animation: fadeInUp 0.5s ease-in-out; 
 }
 
 /* Footer styles */
@@ -64,7 +64,7 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
-  animation: fadeInUp 0.5s ease-in-out; /* Fade in animation */
+  animation: fadeInUp 0.5s ease-in-out; /
 }
 
 /* Form styles */
@@ -89,30 +89,30 @@ form input[type="tel"] {
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  background-color: #fff; /* White background for input fields */
-  color: #333; /* Dark text color */
+  background-color: #fff; 
+  color: #333; 
   outline: none;
-  transition: border-color 0.3s ease-in-out; /* Border color transition */
+  transition: border-color 0.3s ease-in-out; 
 }
 
 form input[type="email"]:focus,
 form input[type="tel"]:focus {
-  border-color: #007bff; /* Blue border color on focus */
+  border-color: #007bff; 
 }
 
 form button {
-  background-color: #007bff; /* Vibrant blue button */
+  background-color: #007bff; 
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Background color transition */
+  transition: background-color 0.3s ease; 
 }
 
 form button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3; 
 }
 
 /* Footer styles */
@@ -151,7 +151,7 @@ form button:hover {
   margin-right: 5px;
 }
 
-/* Portfolio styles */
+
 #portfolio {
   padding: 20px;
 }
