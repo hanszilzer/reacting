@@ -1,0 +1,252 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+/* Header styles */
+header {
+  background-color: #007bff; /* Vibrant blue header */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  animation: fadeInDown 0.5s ease-in-out; /* Fade in animation */
+}
+
+/* Navigation styles */
+nav {
+  background-color: #0056b3; /* Dark blue navigation */
+  padding: 10px;
+}
+nav ul li a.active {
+  background-color: #0069d9;
+  border-radius: 5px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out; /* Transform animation */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #0069d9; /* Lighter blue on hover */
+  border-radius: 5px;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  animation: fadeInUp 0.5s ease-in-out; /* Fade in animation */
+}
+
+/* Footer styles */
+footer {
+  background-color: #0056b3; 
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  animation: fadeInUp 0.5s ease-in-out; /* Fade in animation */
+}
+
+/* Form styles */
+form {
+  margin-top: 20px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="email"],
+form input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff; /* White background for input fields */
+  color: #333; /* Dark text color */
+  outline: none;
+  transition: border-color 0.3s ease-in-out; /* Border color transition */
+}
+
+form input[type="email"]:focus,
+form input[type="tel"]:focus {
+  border-color: #007bff; /* Blue border color on focus */
+}
+
+form button {
+  background-color: #007bff; /* Vibrant blue button */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Background color transition */
+}
+
+form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 150;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.social-links li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-links li a:hover {
+  color: #ffc107; 
+}
+
+.social-links li a i {
+  margin-right: 5px;
+}
+
+/* Portfolio styles */
+#portfolio {
+  padding: 20px;
+}
+
+.repository-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.repository-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.repository-item h3 {
+  margin-top: 0;
+}
+
+.repository-item h3 a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.repository-item p {
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Resume styles */
+#resume {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section {
+  margin-bottom: 30px;
+}
+
+.resume-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin: 0 10px 10px 0;
+}
+
+.resume-item {
+  margin-bottom: 20px;
+}
+
+.resume-item h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.resume-item p {
+  margin-bottom: 5px;
+}
+
+/* Keyframe animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
